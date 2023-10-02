@@ -1,60 +1,76 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 .cal-sec {
-    margin: 25px 0px;
+  margin: 25px 0px;
 }
+
 .calculator {
-    max-width: 375px;
-    margin: auto;
-    height: 600px;
-    border-radius: 39px;
-    background: linear-gradient(191deg, #17181A -4.95%, #17181A 103.74%);
+  max-width: 375px;
+  margin: auto;
+  height: 600px;
+  border-radius: 39px;
+  background: linear-gradient(191deg, #17181A -4.95%, #17181A 103.74%);
 }
+
 .btn-list {
-    display: flex;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 button.btn {
-    color: #29A8FF;
-    font-family: Poppins;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    border-radius: 16px;
-    background: #303136;
-    margin: 10px 10px;
-    width: 52px;
+  color: #29A8FF;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 16px;
+  background: #303136;
+  margin: 10px 10px;
+  width: 52px;
 }
+
 .cal-bottom:nth-child(1) {
-    font-size: 20px;
+  font-size: 20px;
 }
+
 .list-1:nth-child(1), .list-1:nth-child(2) {
-    font-size: 25px;
+  font-size: 25px;
 }
+
 .cg {
-    color: #fff;
-    padding: 50px 50px;
+  color: #fff;
+  padding: 50px 50px;
 }
 
 input[type="text"] {
-    border: none;
-    color: #fff;
-    text-align: end;
-    font-size: 35px;
-    background: linear-gradient(191deg, #17181A -4.95%, #17181A 103.74%);
+  border: none;
+  color: #fff;
+  text-align: end;
+  font-size: 35px;
+  background: linear-gradient(191deg, #17181A -4.95%, #17181A 103.74%);
 }
+
 input[type="text"]:focus {
-    outline: none;
+  outline: none;
 }
+
 .btn:hover {
-    color: #fff;
-    background-color: #000;
-    border-color: #29A8FF;
+  color: #fff;
+  background-color: #000;
+  border-color: #29A8FF;
 }
+
 .eql-btn {
-    width: 33% !important;
+  width: 33% !important;
 }
+/*# sourceMappingURL=style.css.map */
