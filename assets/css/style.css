@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -14,7 +14,7 @@
   margin: auto;
   height: 600px;
   border-radius: 39px;
-  background: linear-gradient(191deg, #17181A -4.95%, #17181A 103.74%);
+  background: linear-gradient(191deg, #17181a -4.95%, #17181a 103.74%);
 }
 
 .btn-list {
@@ -22,12 +22,12 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 button.btn {
-  color: #29A8FF;
+  color: #29a8ff;
   font-family: Poppins;
   font-size: 32px;
   font-style: normal;
@@ -43,7 +43,8 @@ button.btn {
   font-size: 20px;
 }
 
-.list-1:nth-child(1), .list-1:nth-child(2) {
+.list-1:nth-child(1),
+.list-1:nth-child(2) {
   font-size: 25px;
 }
 
@@ -57,7 +58,7 @@ input[type="text"] {
   color: #fff;
   text-align: end;
   font-size: 35px;
-  background: linear-gradient(191deg, #17181A -4.95%, #17181A 103.74%);
+  background: linear-gradient(191deg, #17181a -4.95%, #17181a 103.74%);
 }
 
 input[type="text"]:focus {
@@ -67,7 +68,7 @@ input[type="text"]:focus {
 .btn:hover {
   color: #fff;
   background-color: #000;
-  border-color: #29A8FF;
+  border-color: #29a8ff;
 }
 
 .eql-btn {
